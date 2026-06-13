@@ -904,18 +904,24 @@ transition: transform 0.3s ease-out;
     margin-bottom: 50px;
     letter-spacing: 3px;
     text-transform: uppercase;
-    text-decoration: underline;
-    text-underline-offset: 8px;
     font-weight: 400;
     
 }
 
 
 
+.blocco{
+    width: 100%;
+    max-width: 340px;
+}
+ 
 .contenitoreblocco{
+flex-direction: column;
+    gap: 30px;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    
     gap: 30px;
     max-width: 1200px;
     margin: 0 auto;
@@ -1316,7 +1322,7 @@ blockquote{
 .warning{
     display:inline-block;
     color:#FAD184;
-    text-decoration: underline;
+    
     font-size: 35px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius:50px;
@@ -1781,7 +1787,7 @@ gap: 150px;
     font-weight: 600;
     color: #000;
     text-align: left;
-    padding-left: 40px;
+    
     width: 25%;
 }
 
@@ -1904,11 +1910,12 @@ gap: 150px;
 
 @media (max-width: 800px) {
     
-    p, p.testino, .criceto, .zoro , .bijoux p{
+    p, p.testino, .criceto, .zoro , .bijoux p, .ariannagiraffa p, .ricettariodescription  {
         width: 100%;
         max-width: 85%; 
         margin-left: auto;
         margin-right: auto;
+        font-size: 16px ;
     }
 
     
@@ -1919,16 +1926,16 @@ gap: 150px;
 
     h1, .hero_content h1, .story h1, .gusticontainer h1, .vanessa h1, 
     .pokemon h1, .onepiece h2, .overlayfinale h1, .preferiti h1, 
-    .bijoux h1, .arianna h2, .sapori h2, .esperienza h2 {
+    .bijoux h1, .arianna h2, .sapori h2, .esperienza h2, .curiosita h2, .disputa h2, .giada h1, .warning, .tradizionale h1, .ricettariotitolo h2 {
         font-size: 32px ;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 20px ;
+        margin-bottom: 40px ;
         margin-left: auto;
         margin-right: auto;
     }
 
-    h2, .giapponesina h2, .disputa h2, .disputa h3, .leone h2, .carto h2, .ricettariotitolo h2, .terea h2 {
+    h2, .giapponesina h2,  .disputa h3, .leone h2, .carto h2, .ricettariotitolo h2, .terea h2,  {
         font-size: 26px ;
         width: 100%;
         max-width: 90%;
@@ -2038,6 +2045,10 @@ gap: 150px;
         padding: 15px;
     }
 
+    .card img{
+       height: 100px;
+    }
+
    
     .onepiece {
         flex-direction: column;
@@ -2072,8 +2083,8 @@ gap: 150px;
 
     .triangolini{
         top: 50px;
-        left: -50px; /* Corretto l'asse orizzontale rispetto alla nuova posizione della linea */
-        border-left: 15px solid #FAD184; /* Leggermente più piccolo per schermi intermedi */
+       
+        border-left: 15px solid #FAD184; 
         border-top: 6px solid transparent;
         border-bottom: 6px solid transparent;
     }
@@ -2082,15 +2093,14 @@ gap: 150px;
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
-        max-width: 300px;
+        max-width: 200px;
         margin: 0 auto;
     }
 
     
     .disputa h2{
-        font-size: 25px;
-        padding: 0;
-        margin-top: 10px;
+        
+       margin-top: 20px;
     }
      
     
@@ -2098,21 +2108,24 @@ gap: 150px;
         height: 1300px;
     }
 
-   .immagine {
-    view-timeline-name: --img;
-    view-timeline-axis: block;
-  }
+   
 
   .immagine img {
     height: 1300px;
     object-fit: cover;
-    object-position: left center;
+    
 
-    animation: spostaImg linear both;
-    animation-timeline: --img;
-    animation-range: entry 0% exit 100%;
+    
   }
 
+
+  .auto {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    
    
     
     .confronto {
@@ -2139,17 +2152,26 @@ gap: 150px;
         text-align: center;
     }
 
-   
-    .contenitoreblocco {
-        flex-direction: column;
-        gap: 30px;
-        align-items: center;
+    .lineaverticale{
+        height: 350px;
+        width: 5px;
     }
 
-    .blocco {
-        width: 100%;
-        max-width: 340px;
+    .giada h1{
+        padding: 0;
+        
     }
+   
+   .giuse{
+        height: auto;
+        min-height: 80vh;
+    }
+
+    .evelyn{
+        height: auto;
+        min-height: 80vh;
+    }
+
 
     
     .carousel {
@@ -2159,19 +2181,72 @@ gap: 150px;
 
     .slides img {
         height: 250px;
+        
     }
 
-    
-    .auto {
+
+
+    .mufasa{
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        gap: 40px;
+        
     }
 
-    .auto p {
-        width: 100%;
+    .mufasatesto h2{
+        max-width: 85%;
+
+    }
+    
+   
+    .cartone h3{
+        max-width: 85%;
+        margin: 20px auto;
+    }
+    
+
+     blockquote {
+        font-size: 24px;
+        margin: 30px 55px;
+        padding: 0 15px;
     }
 
+    .forno p{
+        max-width: 300px;
+    }
+
+    .coffin h2{
+        max-width: 85%;
+    }
+
+    .warning{
+        padding-left: 30px;
+    }
+
+    .horrorcard h3{
+        max-width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .costa {
+        font-size: 25px;
+        max-width: 85%;
+    }
+
+
+
+    .ariannagiraffa{
+        max-width: 300px;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+
+
+    .ariannagiraffa img{
+        width: 150px;
+    }
     
     .caffe {
         flex-direction: column;
@@ -2224,6 +2299,7 @@ gap: 150px;
 
     .uxbox img {
         width: 100%;
+        height: 420px;
     }
 
     .foglia-box {
@@ -2234,30 +2310,35 @@ gap: 150px;
     }
 
     
-    .terea {
-        padding: 40px 0;
+   .terea{
+    padding: 40px 0;
+
         margin: 40px 0;
-    }
+   }
 
     .terea table {
-        width: 95%;
+        width: 80%;
         display: block;
-        overflow-x: auto; 
+        overflow-x: auto;
+        
      }
 
     .terea th, .terea td {
-        padding: 12px;
+        padding: 15px 15px 15px 15px;
+        margin: 0 auto;
         font-size: 14px;
+        
     }
-
-    .terea td:first-child {
-        padding-left: 15px;
-        width: auto;
-    }
-
+     
+    
+    
     
     .gioco {
         gap: 30px;
+    }
+
+    .gioco img{
+        margin: 0 auto;
     }
 
     .esperienza {
@@ -2281,11 +2362,7 @@ gap: 150px;
         font-size: 20px;
     }
 
-    blockquote {
-        font-size: 1.4rem;
-        margin: 30px 15px;
-        padding: 0 15px;
-    }
+   
 
 }
 
@@ -2295,14 +2372,7 @@ gap: 150px;
 
 
 
-@keyframes spostaImmagine {
-    from {
-        object-position: left;
-    }
-    to {
-        object-position: right;
-    }
-}
+
 
 
 
@@ -2370,11 +2440,4 @@ gap: 150px;
 
 }
 
- @keyframes spostaImg {
-    from {
-      object-position: left center;
-    }
-    to {
-      object-position: right center;
-    }
-    }
+ 
