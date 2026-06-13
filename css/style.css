@@ -1,0 +1,2279 @@
+
+body{
+   
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
+
+header{
+    background-color: #EFE4D1;
+    
+}
+
+header nav ul{
+    margin: 0 auto;
+    display: flex;
+    gap: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    align-items: center;
+    
+}
+
+.cipolla{
+
+
+max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:500px;
+    padding: 10px 30px;
+}
+
+header.nav{
+    display: flex;
+    gap: 80px;
+    font-size: 18px;
+}
+
+
+
+
+.cerca{
+    height: 20px;
+}
+
+.logo img{
+    height: 65px;
+}
+
+
+
+
+
+header nav ul li a {
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(250, 209, 132, 0.8); 
+    color: #553e04;
+    
+}
+
+.active{
+    background-color: rgba(250, 209, 132, 0.8); 
+    color: #553e04;
+}
+
+
+.container_hero{
+    position: relative;
+    
+    
+}
+
+.overlay {
+    position: absolute;
+   
+}
+
+.zio {
+    display: block;
+    width: 100%; 
+    height: 500px;
+    top: 0;
+    left: 0;
+    
+}
+
+.zio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+}
+
+.hero_content{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hero_content h1{
+    color: white;
+    font-size: 58px;
+    line-height: 10px;
+    font-weight: 300;
+     
+}
+ 
+
+
+p.testino{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    line-height: 0.01;
+    font-size: 18px;
+}
+
+.button a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.highlight{
+    color: #FAD184;
+    font-style: italic;
+}
+
+
+
+
+
+
+.button {
+    display: flex;
+    gap: 20px; 
+    margin-top: 30px;
+}
+
+.button a {
+    padding: 12px 25px;
+    border-radius: 5px; 
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s; 
+    display: inline-block;
+    text-align: center;
+}
+
+
+.button1 {
+    background-color: white;
+    color: #000; 
+    border: 2px solid white;
+}
+
+
+.button2 {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white; 
+}
+
+.button1:hover {
+     background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.story h1{
+     font-size: 58px;
+    line-height: 10px;
+    font-weight: 300;
+    color: #000;
+}
+
+p.cowboy{
+    color:#000;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 18px;
+}
+
+.toystory {
+    background-color: #FAD184;
+    padding: 30px;
+}
+
+.woody{
+    color: #FF8800;
+    font-style: italic;
+    
+}
+
+.story_image{
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+    padding-right: 70px;
+}
+
+.story_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    
+}
+
+
+.toystory{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.storybutton{
+    margin-top: 30px;
+}
+
+.btngold{
+    background-color: white;
+    color: #000; 
+    border: 2px solid white;
+text-decoration: none;
+display: inline-block;
+margin-top: 30px;
+padding: 16px 28px;
+
+
+border-radius: 10px;
+font-size: 14px;
+font-weight: bold;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btngold:hover{
+ background-color: transparent;
+    color: #FF8800;
+    border: 2px solid #FF8800;
+    
+}
+
+.gusticontainer{
+
+    padding: 30px;
+    
+}
+
+.gusticontainer h1{
+    font-size: 58px;
+    line-height: 10px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+
+.maddy{
+    width: 150px;
+    height: 3px;
+    background-color: #FF8800;
+    margin-bottom: 25px;
+
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.card{
+
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.card a{
+    text-decoration: none;
+    color: #000;
+}
+.card img{
+   height: 130px;
+    object-fit: cover;
+    object-position: center;
+    margin: auto;
+    display: block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+
+.card h3{
+
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: 200;
+    
+}
+
+.card img:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+.vanessa h1{
+     font-size: 58px;
+    line-height: 10px;
+    font-weight: 300;
+    color: #000;
+}
+
+p.tuffy{
+    color:#000;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 18px;
+}
+
+.barbie {
+    background-color: #FAD184;
+    padding: 30px;
+}
+
+.ken{
+    color: #FF8800;
+    font-style: italic;
+    
+}
+
+.barbie_image{
+    width: 320px;
+    height: 320px;
+    flex-shrink: 0;
+    padding-right: 70px;
+}
+
+.barbie_image img{
+    width: 400px;
+    object-fit: cover;
+    display: block;
+    
+    
+}
+
+
+.barbie{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.limoni_image{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: -100px;
+    bottom: -40px;
+    
+    
+}
+
+.vanessa {
+    padding-left: 300px;
+}
+
+.barbie_image h4{
+   color: #FF8800;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.ball{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.ball img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.pokemon{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+
+
+}
+
+.ball:hover .pokemon{
+    opacity: 1;
+}
+
+.pokemon h1{
+    color: white;
+    font-size: 58px;
+    line-height: 10px;
+    font-weight: 300;
+}
+
+.pokemon p{
+    color: white;
+   font-style: italic;
+    font-size: 32px;
+    line-height: 0.01;
+}
+
+.sofia{
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    padding-bottom: 6px;
+}
+
+.sofia:after{
+content: '';
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 2px;
+background-color: white;
+transform: scaleX(0);
+transform-origin: bottom left;
+transition: transform 0.3s ease-out;
+
+}
+a.sofia:hover:after{
+    transform: scaleX(1);
+}
+
+.linea{
+    width: 80px;
+    height: 3px;
+    background-color: #FAD184;
+    margin-bottom: 25px;
+
+}
+
+.simbolo{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.mini{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.onepiece{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+
+}
+
+.onepiece span{
+    width: 4px;
+    height: 140px;
+    background-color: #FAD184;
+}
+
+.onepiece h2{
+    font-size: 58px;
+    line-height: 1.1;
+    max-width: 700px;
+}
+
+.zoro{
+    max-width: 750px;
+    margin:auto;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.btnsimbolo{
+    display: inline-block;
+    background-color: #FAD184;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+    font-weight: bold;
+    transition: 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 12px 25px;
+    border-radius: 5px; 
+}
+
+.btnsimbolo:hover{
+    transform: scale(1.05);
+    background-color: #FF8800;
+}
+
+.simbolo img{
+    width: 500px;
+    margin-top: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.griglia{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 30px 0px 30px 30px;
+}
+
+.griglia h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.griglia p{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.colore:hover{
+    color: #FF8800;
+    cursor: pointer;
+
+}
+
+.p.colore{
+    text-decoration: none;
+}
+
+.pulcino{
+   background-color: #EFE4D1 ;
+    padding: 30px;
+}
+
+.griglia a{
+    text-decoration: none;
+}
+
+.griglia img{
+    width: 150px;
+    height: 60px;
+    object-fit: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.end{
+    
+  font-weight: 300;
+    color: #000;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+/* storia */
+
+.copertina{
+    
+    height: 630px;
+    background-color: #FAD184;
+    position: absolute;
+    left: 56px;
+    top: 80px;
+    width: 4px;
+    
+}
+
+
+
+.giapponesina{
+    max-width: 900px;
+    margin: 100px auto;
+    padding-left: 100px;
+    position: relative;
+     
+}
+
+.giapponesina h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.cerchio{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    
+}
+
+
+
+.quadrato{
+    width: 90px;
+    flex-shrink: 0;
+    
+}
+
+
+.quadrato img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    
+    
+}
+
+.triangolo{
+    position: relative;
+}
+
+.triangolini{
+    background-color: transparent;
+    width: 0;
+    position: absolute;
+    left: -43px;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 20px solid #FAD184;
+    display: inline-block;
+}
+
+
+
+.triangolo h3{
+  font-size: 25px;
+    font-weight: 200;
+    color: #000;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.triangolo p{
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 500px;    
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.disputa{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+}
+
+.sopra{
+    position: absolute;
+   margin-bottom: 0;
+    align-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+
+.sopra p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.disputa img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.disputa h2{
+    margin-top: 0;
+    font-size: 45px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: center; 
+    
+}
+
+.disputa h3{
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.criceto{
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
+.confronto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    max-width: 1100px;
+    margin: 0 auto;
+    
+
+
+}
+
+.arancini{
+   max-width: 800px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+
+}
+.arancinitesto{
+    margin: 0 50px auto;
+    width: 300px;
+}
+.arancini h4{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.arancini h5{
+    color: #FF8800;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-shadow: 5px 5px 4px #FAD184;
+    margin: auto;
+}
+.arancini img{
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    margin: 15px 0;
+    
+}
+
+
+
+.arancini p{
+    font-size: 18px;
+    line-height: 1.5;
+
+}
+
+.dx{
+    text-align: right;
+}
+.versus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.versus img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+
+.blocco{
+    width: 320px;
+   background-color: #EFE4D1;
+}
+
+.blocco img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.curiosita{
+    background-color: #0b0f19;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    
+}
+
+.curiosita h2{
+    margin-top: 0;
+    font-size: 45px;
+    color: #FF8800;
+    margin-bottom: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    font-weight: 400;
+    
+}
+
+
+
+.contenitoreblocco{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 70px;
+}
+
+.cardcuriose{
+    padding: 30px 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    height: auto;
+
+}
+
+.cardcuriose h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+    margin-top: 0;
+    font-weight: 700;
+    color: #000;
+
+}
+
+.cardcuriose p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+
+.finale {
+    object-fit: cover;
+    text-align: center;
+    object-position: center;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.overlayfinale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.finale img{
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.overlayfinale h1{
+    color: white;
+    font-size: 58px;
+    line-height: 10px;
+    font-weight: 300;
+}
+
+.overlayfinale p{
+    color: white;
+   font-style: italic;
+    font-size: 32px;
+    line-height: 0.01;
+}
+
+
+
+/* ricette */
+
+.lineaverticale{
+    width: 4px;
+    height: 400px;
+    background-color: #FAD184;
+    margin: 30px 50px;
+    display: inline-block;
+}
+
+.overlay{
+    display: flex;
+}
+
+.casello{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #FAD184;
+    padding: 30px;
+
+}
+
+.auto{
+   padding: 20px;
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+   text-align: left;
+   transition: 0.3s ;
+   background-color: #ffffff;
+   border-radius: 40px;  
+   
+}
+
+.auto:hover{
+    transform: translateY(-5px);
+}
+
+.auto img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+    padding: 15px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.auto p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.arancio{
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: #ff8800;
+    text-decoration-thickness: 3px;
+}
+
+.preferiti{
+    
+    padding: 30px;
+}
+
+.preferiti h1{
+    font-size: 58px;
+    line-height: 10px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.striscia{
+    width: 250px;
+    justify-self: center;
+    margin: 30px;
+    height: 3px;
+    background-color: #Ff8800;
+    
+}
+
+.carousel {
+    width: 800px;
+    max-width: 100%;
+    height: 450px;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.slides {
+    display: flex;
+    width: 1000%;
+    animation: foodCarousel 25s infinite;
+}
+
+.slides img {
+    width: 10%;
+    height: 450px;
+    object-fit: cover;
+}
+
+/* 10 immagini = 10 step */
+@keyframes foodCarousel {
+    0%, 8%    { transform: translateX(0); }
+    10%, 18%  { transform: translateX(-10%); }
+    20%, 28%  { transform: translateX(-20%); }
+    30%, 38%  { transform: translateX(-30%); }
+    40%, 48%  { transform: translateX(-40%); }
+    50%, 58%  { transform: translateX(-50%); }
+    60%, 68%  { transform: translateX(-60%); }
+    70%, 78%  { transform: translateX(-70%); }
+    80%, 88%  { transform: translateX(-80%); }
+    90%, 98%  { transform: translateX(-90%); }
+    100%      { transform: translateX(0); }
+}
+
+.giada h1{
+    font-size: 50px;
+    line-height: 10px;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.giuse{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+}
+
+.giada{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+}
+
+
+.evidenziatore{
+    color: #FF8800;
+}
+
+.evelyn {
+    height: 750px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*simbolo*/
+
+.bijoux{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.rimmel{
+    display:block;
+    font-weight:700;
+    letter-spacing:3px;
+    margin-bottom:30px;
+}
+
+.bijoux h1{
+    font-size: 60px;
+    line-height:1;
+    margin-bottom:30px;
+}
+
+.bijoux p{
+    max-width:700px;
+    margin:auto;
+    font-size:18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.simba{
+    margin: 0px auto;
+    padding-bottom: 50px;
+   
+    
+}
+
+
+
+.mufasa{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 90%;
+    justify-content: center;
+    gap: 40px;
+}
+.mufasa h2{
+    color: #Ff8800;
+}
+
+.mufasa img{
+    width: 400px;
+}
+
+.mufasa p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.leone{
+    padding:120px 0;
+}
+
+.leone h2{
+    font-size:3rem;
+    margin-bottom:30px;
+}
+
+
+
+.carto{
+    background:#f0e1bf;
+    padding: 45px ;     
+}
+
+.carto h2{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+
+.cartoni{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    margin: 30px 0;
+}
+
+.cartone{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+}
+
+.cartone img{
+    width: 100%;
+    display: block;
+  object-fit: cover;
+  height: 350px;
+  border-radius: 15px;
+}
+
+.cartone h3{
+    font-size: 25px;
+}
+
+.cartone p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.torta{
+    margin: 70px auto;
+    
+}
+blockquote{
+    font-size:2rem;
+    font-weight:600;
+    border-left:5px solid #FF8800;
+    border-right:5px solid #FF8800;
+    padding-left:25px;
+    max-width: 800px;
+    margin: 50px  auto;
+}
+
+.forno p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.warning{
+    display:inline-block;
+    color:#FAD184;
+    text-decoration: underline;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius:50px;
+    margin:20px auto;
+   align-items: center;
+}
+
+.horror{
+    background:#161616;
+    color:white;
+    align-self: center;
+    
+}
+.coffin{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 55px;
+    padding-top: 15px;
+    
+    
+}
+
+.coffin h2{
+    font-size: 30px;
+}
+
+.introhorror{
+    margin-bottom:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+
+
+.horrorgrid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:70px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.horrorcard{
+    background:#222;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid rgba(250,209,132,.8);
+}
+
+.horrorcard h3{
+    color:#ffffff;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    margin-bottom:15px;
+    font-size: 22px;
+}
+
+.horrorcard p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.quote{
+    background:#FAD184;
+    color:#000;
+    text-align:center;
+    padding: 80px;
+    margin: 0 auto;
+}
+
+.costa{
+    font-size:45px;
+    font-weight:500;
+    max-width:900px;
+    margin: 0 auto;
+    font-style: italic;
+    padding: 30px 0;
+}
+
+
+
+
+/*tradizionale*/
+
+.tradizionale{
+    padding:80px 8%;
+
+}
+
+.caffe{
+    width:100%;
+    display: flex;
+text-align: center;
+align-items: center;
+justify-content:space-between;
+gap: 150px;
+
+}
+.motorino{
+    flex:2;
+    max-width:500px;
+}
+
+.spazzola{
+    flex:1;
+}
+
+.spazzola{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+    
+}
+
+.spazzola img{
+    object-fit: cover;
+     height:300px;
+    width:auto;
+     
+   
+    
+    
+}
+
+.motorino p{
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.tradizionale span{
+    letter-spacing: 3px;
+}
+
+.tradizionale h1{
+    font-size: 50px;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+
+
+
+ .anime h2{
+    text-align: center;
+    margin-bottom:40px;
+    color: #000;
+    font-size: 40px;
+
+ }
+
+ .burro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 40px 40px auto;
+    margin-bottom: 60px;
+ }
+
+.passocarrabile{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+.passocarrabile img{
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.banca{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(47, 51, 50, 0.45);
+    color: white;
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.banca h3{
+     font-size: 90px;
+     margin-bottom: 20px;
+     letter-spacing: 20px;
+     text-transform: uppercase;
+     text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+
+.banca p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.bollino{
+    width: 600px;
+    justify-self: center;
+    margin-top: 0px;
+    height: 3px;
+    background-color: #FAD184;
+    margin: 10px 0;
+}
+
+
+
+.ricettario {
+    background: #f8f2e7;
+    padding: 20px;
+    font-family: "Cormorant Garamond", serif;
+    padding-bottom: 60px;
+}
+
+.libro {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.ricettariotitolo {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 60px;
+}
+
+.icon {
+    display: block;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.ricettariotitolo h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #1d1d1d;
+}
+
+.ricettariosottotitolo {
+    color: #ff8800;
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.ricettariodescription {
+    color: #000;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.stepsgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+
+.stepcard {
+    position: relative;
+    background-color: white;
+    border-radius: 14px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 18px rgba(0,0,0,.08);
+}
+
+.stepcard img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.stepnumber {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #ff8800;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #fff;
+    z-index: 2;
+}
+
+.stepcard h3 {
+    margin: 25px 20px 10px;
+    font-size: 24px;
+    color: #222;
+    text-transform: uppercase;
+}
+
+.stepcard p {
+    padding: 0 20px 25px;
+    line-height: 1.6;
+    color: #555;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+/*Esagerato*/
+
+
+
+.arianna{
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+    background-color: #f3ebdd;
+    position: relative;
+    margin: 0 auto;
+}
+
+.arianna h2{
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: 300;
+    margin: 40px;
+}
+
+.ariannagiraffa{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap: 80px;
+    margin: auto;
+}
+
+.ariannagiraffa img{
+    width: 200px;
+    height:auto;
+    opacity: .9;
+    flex-shrink: 0;
+}
+
+.ariannagiraffa h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    text-align:center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.ariannagiraffa p{
+    max-width: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.sapori{
+    max-width: 1400px;
+    margin:auto;
+    padding: 60px 20px;
+}
+
+.sapori h2{
+    text-align:center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.separator{
+    width: 120px;
+    height: 2px;
+    background-color: #a8743a;
+    margin: 0 auto 40px;
+    position: relative;
+}
+
+.separator::after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #a8743a;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.ux{
+    display:flex;
+    max-width: 1000px;
+    margin: auto;
+    gap: 110px;
+}
+
+.uxpistacchio,
+.uxnduja{
+    flex: 1;
+    display:flex;
+    border-radius: 10px;
+    overflow:hidden;
+    height: 400px;
+    position: relative;
+} 
+
+.uxbox{
+    width: 55%;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.uxbox img{
+    width: 500px;
+    display: block;
+    height:100%;
+    object-fit:cover;
+}
+
+.foglia-box{
+    width: 45%;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    position: relative;
+    z-index: 2;
+}
+
+/* MARRONE al posto del verde */
+.verde{
+    background: rgb(102, 68, 34,.85);
+    color:white;
+    margin-left: -50px;
+}
+
+.rosso{
+    background: rgba(177,43,35,.85);
+    color:white;
+    margin-left: -50px;
+}
+
+.foglia-box h3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin:15px 0;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.foglia-box p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    line-height: 1.6;
+    font-size: 15px ;
+}
+
+.terea{
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    text-align: center;
+    padding: 100px 0;
+    background: #f3ebdd;
+}
+
+.terea h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.terea table{
+    width: 85%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #d9cfbf;
+    margin: 50px auto 0;
+}
+
+.terea th{
+    padding: 22px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    border: 1px solid #d8ccb8;
+    background:#FAD184;
+}
+
+/* marrone */
+.terea th:nth-child(2){
+    color: #664422;
+}
+
+.terea th:nth-child(3){
+    color: #a62f2f;
+}
+
+.terea td{
+    padding: 22px;
+    border: 1px solid #d8ccb8;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.terea td:first-child{
+    font-weight: 600;
+    color: #000;
+    text-align: left;
+    padding-left: 40px;
+    width: 25%;
+}
+
+.terea tr:nth-child(even){
+    background: #fcfaf6;
+}
+
+/* marrone al posto del blu */
+.terea tr:nth-child(2) td:nth-child(2),
+.terea tr:nth-child(3) td:nth-child(2),
+.terea tr:nth-child(4) td:nth-child(2){
+    color: #664422;
+    font-size: 18px;
+}
+
+.terea tr:nth-child(2) td:nth-child(3),
+.terea tr:nth-child(3) td:nth-child(3),
+.terea tr:nth-child(4) td:nth-child(3){
+    color: #a62f2f;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+.gioco{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gioco img{
+    width: 50px;
+}
+
+.esperienza{
+    width: 90%;
+    max-width: 1200px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.esperienza h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.battaglia{
+    flex: 1;
+    padding: 30px;
+    min-width: 450px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border-radius: 6px;
+    background: #FAD184;
+    border: 1px solid #d8ccb8;
+    text-align: left;
+    position: relative;
+    overflow: auto;
+}
+
+.battaglia img{
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    flex-shrink: 0;
+} 
+
+.battaglia h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.battaglia p{
+    font-size: 20px;
+    line-height: 1.8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* marrone al posto del verde */
+.battaglia:first-child{
+    border-color: #664422;
+    background: #e8d6c3;
+}
+
+.battaglia:first-child h3{
+    color: #664422;
+}
+
+.battaglia:last-child{
+    border-color: #d3391e;
+    background: #f3d3ce;
+}
+
+.battaglia:last-child h3{
+    color: #9f3128;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   MEDIA QUERY: SMARTPHONE (MAX-WIDTH: 600px)
+   ========================================================================== */
+
+@media (max-width: 600px) {
+    
+    
+    
+    body {
+        font-size: 16px;
+    }
+
+    h1, .hero_content h1, .story h1, .gusticontainer h1, .vanessa h1, 
+    .pokemon h1, .onepiece h2, .overlayfinale h1, .preferiti h1, 
+    .bijoux h1, .arianna h2, .sapori h2, .esperienza h2 {
+        font-size: 32px ;
+        line-height: 1.2 ;
+        margin-bottom: 20px ;
+    }
+
+    h2, .giapponesina h2, .disputa h2, .disputa h3, .leone h2, .carto h2, .ricettariotitolo h2, .terea h2 {
+        font-size: 26px ;
+        line-height: 1.2;
+    }
+
+    
+    .cipolla {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header nav ul li a {
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    header.nav {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+   
+    .zio {
+        height: 400px;
+    }
+
+    .hero_content {
+        margin: 15px;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    p.testino {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .button {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .button a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    
+    .toystory, .barbie {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .story_image, .barbie_image {
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .story_image img, .barbie_image img {
+        width: 100%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .vanessa {
+        padding-left: 0;
+    }
+
+    .limoni_image {
+        display: none; 
+    }
+
+    
+    .cards, .griglia, .horrorgrid, .casello, .stepsgrid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 15px;
+    }
+
+   
+    .onepiece {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .onepiece span {
+        width: 100%;
+        height: 3px;
+    }
+
+    .zoro, .bijoux p, .criceto {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+
+    .simbolo img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    /* --- Timeline Giapponesina --- */
+    .giapponesina {
+        padding-left: 20px;
+        margin: 50px auto;
+    }
+
+    .copertina {
+        left: 15px;
+    }
+
+    .cerchio {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .triangolini {
+        display: none; 
+    }
+
+    
+    .confronto {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .arancini {
+        grid-template-columns: 1fr;
+        text-align: center ;
+    }
+
+    .arancinitesto {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .arancini img {
+        margin: 0 auto;
+    }
+
+    .dx {
+        text-align: center;
+    }
+
+   
+    .contenitoreblocco {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .blocco {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    
+    .carousel {
+        width: 100%;
+        height: 250px;
+    }
+
+    .slides img {
+        height: 250px;
+    }
+
+    
+    .auto {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .auto p {
+        width: 100%;
+    }
+
+    
+    .caffe {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .spazzola {
+        align-items: center;
+        gap: 15px;
+    }
+
+    .spazzola img {
+        height: 200px;
+    }
+
+    
+    .burro {
+        grid-template-columns: 1fr;
+        margin: 20px;
+    }
+
+    .passocarrabile {
+        height: 350px;
+    }
+
+    .passocarrabile img {
+        height: 350px;
+    }
+
+    .banca h3 {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+
+   
+    .ux {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .uxpistacchio, .uxnduja {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .uxbox {
+        width: 100%;
+        height: 200px;
+    }
+
+    .uxbox img {
+        width: 100%;
+    }
+
+    .foglia-box {
+        width: 100%;
+        margin-left: 0;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    
+    .terea {
+        padding: 40px 0;
+        margin: 40px 0;
+    }
+
+    .terea table {
+        width: 95%;
+        display: block;
+        overflow-x: auto; 
+     }
+
+    .terea th, .terea td {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .terea td:first-child {
+        padding-left: 15px;
+        width: auto;
+    }
+
+    
+    .gioco {
+        gap: 30px;
+    }
+
+    .esperienza {
+        margin: 60px auto;
+    }
+
+    .battaglia {
+        min-width: 100%;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    
+    .ball, .finale, .giuse, .evelyn {
+        height: 350px;
+    }
+
+    .pokemon p, .overlayfinale p {
+        font-size: 20px;
+    }
+
+    blockquote {
+        font-size: 1.4rem;
+        margin: 30px 15px;
+        padding: 0 15px;
+    }
+}
