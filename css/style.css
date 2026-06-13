@@ -2098,15 +2098,20 @@ gap: 150px;
         height: 1300px;
     }
 
-   .immagine img{
+   .immagine {
+    view-timeline-name: --img;
+    view-timeline-axis: block;
+  }
+
+  .immagine img {
     height: 1300px;
     object-fit: cover;
-    object-position: left;
-    width: 100%;
-    animation: spostaImmagine linear both;
-    animation-timeline: view();
+    object-position: left center;
+
+    animation: spostaImg linear both;
+    animation-timeline: --img;
     animation-range: entry 0% exit 100%;
-   }
+  }
 
    
     
@@ -2364,3 +2369,12 @@ gap: 150px;
     }
 
 }
+
+ @keyframes spostaImg {
+    from {
+      object-position: left center;
+    }
+    to {
+      object-position: right center;
+    }
+    }
