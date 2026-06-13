@@ -8,7 +8,9 @@ body{
 }
 
 
-
+h1,h2,h3{
+    font-family: serif
+}
 
 header{
     background-color: #EFE4D1;
@@ -31,7 +33,7 @@ header nav ul{
 max-width:1200px;
     margin:0 auto;
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
     gap:500px;
     padding: 10px 30px;
@@ -54,7 +56,9 @@ header.nav{
     height: 65px;
 }
 
-
+.loghino img{
+    height: 65px;
+}
 
 
 
@@ -67,16 +71,45 @@ header nav ul li a {
     font-size: 18px;
 }
 
-header nav ul li a:hover {
-    background-color: rgba(250, 209, 132, 0.8); 
-    color: #553e04;
-    
-}
+
 
 .active{
     background-color: rgba(250, 209, 132, 0.8); 
     color: #553e04;
 }
+
+
+.breadcrumbs{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.breadcrumbs a{
+    color: #000;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+
+.breadcrumbs span{
+    color: #999;
+}
+
+.breadcrumbs .current{
+    color: #FF8800;
+    font-weight: 600;
+}
+
+
+
 
 
 .container_hero{
@@ -116,7 +149,7 @@ header nav ul li a:hover {
 .hero_content h1{
     color: white;
     font-size: 58px;
-    line-height: 10px;
+    
     font-weight: 300;
      
 }
@@ -126,7 +159,6 @@ header nav ul li a:hover {
 p.testino{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    line-height: 0.01;
     font-size: 18px;
 }
 
@@ -176,23 +208,13 @@ p.testino{
     border: 2px solid white; 
 }
 
-.button1:hover {
-     background-color: transparent;
-    color: white;
-    border: 2px solid white;
-}
-
-.button2:hover {
-    background-color: white;
-    color: black;
-}
 
 
 
 
 .story h1{
      font-size: 58px;
-    line-height: 10px;
+    
     font-weight: 300;
     color: #000;
 }
@@ -256,12 +278,6 @@ font-weight: bold;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.btngold:hover{
- background-color: transparent;
-    color: #FF8800;
-    border: 2px solid #FF8800;
-    
-}
 
 .gusticontainer{
 
@@ -271,7 +287,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 .gusticontainer h1{
     font-size: 58px;
-    line-height: 10px;
+   
     font-weight: 300;
     margin-bottom: 40px;
 }
@@ -286,7 +302,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cards{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+ 
     gap: 25px;
 }
 
@@ -321,16 +339,13 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 
-.card img:hover{
-    transform: scale(1.2);
-}
 
 
 
 
 .vanessa h1{
      font-size: 58px;
-    line-height: 10px;
+
     font-weight: 300;
     color: #000;
 }
@@ -441,14 +456,12 @@ p.tuffy{
 
 }
 
-.ball:hover .pokemon{
-    opacity: 1;
-}
+
 
 .pokemon h1{
     color: white;
     font-size: 58px;
-    line-height: 10px;
+   
     font-weight: 300;
 }
 
@@ -456,7 +469,7 @@ p.tuffy{
     color: white;
    font-style: italic;
     font-size: 32px;
-    line-height: 0.01;
+   
 }
 
 .sofia{
@@ -482,9 +495,7 @@ transform-origin: bottom left;
 transition: transform 0.3s ease-out;
 
 }
-a.sofia:hover:after{
-    transform: scaleX(1);
-}
+
 
 .linea{
     width: 80px;
@@ -529,7 +540,7 @@ a.sofia:hover:after{
 
 .onepiece h2{
     font-size: 58px;
-    line-height: 1.1;
+   
     max-width: 700px;
 }
 
@@ -537,7 +548,7 @@ a.sofia:hover:after{
     max-width: 750px;
     margin:auto;
     font-size: 20px;
-    line-height: 1.6;
+    
     margin-bottom: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -556,10 +567,6 @@ a.sofia:hover:after{
     border-radius: 5px; 
 }
 
-.btnsimbolo:hover{
-    transform: scale(1.05);
-    background-color: #FF8800;
-}
 
 .simbolo img{
     width: 500px;
@@ -595,11 +602,7 @@ a.sofia:hover:after{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.colore:hover{
-    color: #FF8800;
-    cursor: pointer;
 
-}
 
 .p.colore{
     text-decoration: none;
@@ -612,6 +615,7 @@ a.sofia:hover:after{
 
 .griglia a{
     text-decoration: none;
+    color:#000;
 }
 
 .griglia img{
@@ -720,7 +724,7 @@ a.sofia:hover:after{
 
 .triangolo p{
     font-size: 18px;
-    line-height: 1.5;
+    
     max-width: 500px;    
     color: #000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -778,7 +782,7 @@ a.sofia:hover:after{
 
 .criceto{
     font-weight: 400;
-    line-height: 1.4;
+    
     max-width: 700px;
     margin: 0 auto 50px auto;
     font-size: 20px;
@@ -795,6 +799,7 @@ a.sofia:hover:after{
     max-width: 1100px;
     margin: 0 auto;
     
+    
 
 
 }
@@ -804,6 +809,7 @@ a.sofia:hover:after{
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    
 
 }
 .arancinitesto{
@@ -840,7 +846,7 @@ a.sofia:hover:after{
 
 .arancini p{
     font-size: 18px;
-    line-height: 1.5;
+    
 
 }
 
@@ -926,7 +932,7 @@ a.sofia:hover:after{
 
 .cardcuriose p{
     font-size: 16px;
-    line-height: 1.6;
+    
     color: #000;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -970,7 +976,7 @@ a.sofia:hover:after{
 .overlayfinale h1{
     color: white;
     font-size: 58px;
-    line-height: 10px;
+    
     font-weight: 300;
 }
 
@@ -978,7 +984,7 @@ a.sofia:hover:after{
     color: white;
    font-style: italic;
     font-size: 32px;
-    line-height: 0.01;
+   
 }
 
 
@@ -999,7 +1005,7 @@ a.sofia:hover:after{
 
 .casello{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 20px;
     background-color: #FAD184;
     padding: 30px;
@@ -1018,9 +1024,7 @@ a.sofia:hover:after{
    
 }
 
-.auto:hover{
-    transform: translateY(-5px);
-}
+
 
 .auto img{
     width: 150px;
@@ -1036,7 +1040,7 @@ a.sofia:hover:after{
 
 .auto p{
     font-size: 18px;
-    line-height: 1.5;
+    
     color: #000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-self: center;
@@ -1059,7 +1063,7 @@ a.sofia:hover:after{
 
 .preferiti h1{
     font-size: 58px;
-    line-height: 10px;
+    
     font-weight: 300;
     color: #000;
     text-align: center;
@@ -1114,7 +1118,7 @@ a.sofia:hover:after{
 
 .giada h1{
     font-size: 50px;
-    line-height: 10px;
+    
     font-weight: 400;
     color: #000;
     text-align: center;
@@ -1180,7 +1184,7 @@ a.sofia:hover:after{
 
 .bijoux h1{
     font-size: 60px;
-    line-height:1;
+   
     margin-bottom:30px;
 }
 
@@ -1245,7 +1249,7 @@ a.sofia:hover:after{
 
 .cartoni{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
     gap:25px;
     margin: 30px 0;
 }
@@ -1334,7 +1338,8 @@ blockquote{
 
 .horrorgrid{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr ));
+ 
     gap:70px;
     max-width: 1100px;
     margin: 0 auto;
@@ -1349,8 +1354,7 @@ blockquote{
 
 .horrorcard h3{
     color:#ffffff;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+     
     margin-bottom:15px;
     font-size: 22px;
 }
@@ -1428,7 +1432,7 @@ gap: 150px;
     max-width: 700px;
     margin: 0 auto;
     font-size: 18px;
-    line-height: 1.8;
+    
     color: #000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -1440,78 +1444,11 @@ gap: 150px;
 
 .tradizionale h1{
     font-size: 50px;
-    line-height: 1;
+    
     margin: 20px 0;
 }
 
 
-
-
- .anime h2{
-    text-align: center;
-    margin-bottom:40px;
-    color: #000;
-    font-size: 40px;
-
- }
-
- .burro{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin: 40px 40px auto;
-    margin-bottom: 60px;
- }
-
-.passocarrabile{
-    position: relative;
-    overflow: hidden;
-    height: 500px;
-}
-
-.passocarrabile img{
-    height: 500px;
-    object-fit: cover;
-    width: 100%;
-    border-radius: 20px;
-}
-
-.banca{
-    position: absolute;
-    inset: 0;
-    background-color: rgba(47, 51, 50, 0.45);
-    color: white;
-    padding:40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    border-radius: 20px;
-}
-
-.banca h3{
-     font-size: 90px;
-     margin-bottom: 20px;
-     letter-spacing: 20px;
-     text-transform: uppercase;
-     text-align: center;
-     font-family: 'Times New Roman', Times, serif;
-}
-
-
-.banca p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-
-.bollino{
-    width: 600px;
-    justify-self: center;
-    margin-top: 0px;
-    height: 3px;
-    background-color: #FAD184;
-    margin: 10px 0;
-}
 
 
 
@@ -1557,7 +1494,7 @@ gap: 150px;
 .ricettariodescription {
     color: #000;
     font-size: 18px;
-    line-height: 1.6;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -1610,7 +1547,7 @@ gap: 150px;
 
 .stepcard p {
     padding: 0 20px 25px;
-    line-height: 1.6;
+    
     color: #555;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -1635,7 +1572,7 @@ gap: 150px;
 
 .arianna h2{
     font-size: 45px;
-    line-height: 10px;
+    
     font-weight: 300;
     margin: 40px;
 }
@@ -1768,7 +1705,7 @@ gap: 150px;
 .foglia-box p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
-    line-height: 1.6;
+    
     font-size: 15px ;
 }
 
@@ -1878,11 +1815,12 @@ gap: 150px;
 
 .battaglia{
     flex: 1;
+    flex-direction: column;
     padding: 30px;
     min-width: 450px;
     display: flex;
-    align-items: center;
-    gap: 25px;
+    
+    
     border-radius: 6px;
     background: #FAD184;
     border: 1px solid #d8ccb8;
@@ -1903,12 +1841,15 @@ gap: 150px;
     font-size: 25px;
     margin-bottom: 10px;
     text-transform: uppercase;
+    margin: 20px 0 ;
+    
 }
 
 .battaglia p{
     font-size: 20px;
-    line-height: 1.8;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 auto;
 }
 
 /* marrone al posto del verde */
@@ -1944,9 +1885,10 @@ gap: 150px;
    MEDIA QUERY: SMARTPHONE (MAX-WIDTH: 600px)
    ========================================================================== */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     
-    
+
+
     
     body {
         font-size: 16px;
@@ -1956,13 +1898,13 @@ gap: 150px;
     .pokemon h1, .onepiece h2, .overlayfinale h1, .preferiti h1, 
     .bijoux h1, .arianna h2, .sapori h2, .esperienza h2 {
         font-size: 32px ;
-        line-height: 1.2 ;
+        
         margin-bottom: 20px ;
     }
 
     h2, .giapponesina h2, .disputa h2, .disputa h3, .leone h2, .carto h2, .ricettariotitolo h2, .terea h2 {
         font-size: 26px ;
-        line-height: 1.2;
+        
     }
 
     
@@ -2012,7 +1954,7 @@ gap: 150px;
 
     p.testino {
         font-size: 16px;
-        line-height: 1.4;
+        
     }
 
     .button {
@@ -2276,4 +2218,78 @@ gap: 150px;
         margin: 30px 15px;
         padding: 0 15px;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (hover: hover){
+
+.logo img:hover{
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+    header nav ul li a:hover{
+        background-color: rgba(250, 209, 132, 0.8);
+        color: #553e04;
+    }
+
+    .breadcrumbs a:hover{
+        color: #FF8800;
+    }
+
+    .button1:hover{
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .button2:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .btngold:hover{
+        background-color: transparent;
+        color: #FF8800;
+        border: 2px solid #FF8800;
+    }
+
+    .card img:hover{
+        transform: scale(1.2);
+    }
+
+    .ball:hover .pokemon{
+        opacity: 1;
+    }
+
+    a.sofia:hover:after{
+        transform: scaleX(1);
+    }
+
+    .btnsimbolo:hover{
+        transform: scale(1.05);
+        background-color: #FF8800;
+    }
+
+    .colore:hover{
+        color: #FF8800;
+        cursor: pointer;
+    }
+
 }
