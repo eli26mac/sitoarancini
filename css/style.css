@@ -256,6 +256,7 @@ p.cowboy{
     height: 320px;
     flex-shrink: 0;
     padding-right: 70px;
+    overflow: hidden;
 }
 
 .story_image img{
@@ -263,7 +264,7 @@ p.cowboy{
     height: 100%;
     object-fit: cover;
     display: block;
-    border-radius: 15px;
+    border-radius: 20%;
 }
 
 
