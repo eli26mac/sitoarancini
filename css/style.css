@@ -370,7 +370,7 @@ p.tuffy{
 
 .barbie {
     background-color: #FAD184;
-    padding: 30px;
+    padding: 50px;
 }
 
 .ken{
@@ -387,9 +387,10 @@ p.tuffy{
 }
 
 .barbie_image img{
-    width: 400px;
+    height: 300px;
     object-fit: cover;
     display: block;
+    
     
     
 }
@@ -602,15 +603,15 @@ transition: transform 0.3s ease-out;
     font-size: 20px;
     font-weight: bold;
     color: #000;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin: 0px 0px 20px 20px ;
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .griglia p{
     font-size: 16px;
     color: #000;
-    margin-bottom: 10px;
+    margin: 20px 20px 20px 20px ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -1921,8 +1922,7 @@ gap: 150px;
     p, p.testino, .criceto, .zoro , .bijoux p, .ariannagiraffa p, .ricettariodescription  {
         width: 100%;
         max-width: 85%; 
-        margin-left: auto;
-        margin-right: auto;
+        margin: 25px auto;
         font-size: 16px ;
     }
 
@@ -1938,18 +1938,31 @@ gap: 150px;
         font-size: 32px ;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 40px ;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 25px auto;
+        
+        text-align: center;
+        
     }
 
     h2, .giapponesina h2,  .disputa h3, .leone h2, .carto h2, .ricettariotitolo h2, .terea h2  {
         font-size: 26px ;
         width: 100%;
         max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 25px auto;
+        text-align: center;
+        
+        
     }
+
+    .mini p{
+        text-align: center;
+    }
+
+    .coffin h2, .warning, .carto h2, .mufasatesto h2, .triangolo h3{
+        text-align: left;
+    }
+
+
 
     
     .cipolla {
@@ -2019,6 +2032,8 @@ gap: 150px;
         gap: 20px;
     }
 
+   
+
     .story_image, .barbie_image {
         width: 100%;
         height: auto;
@@ -2027,7 +2042,14 @@ gap: 150px;
         justify-content: center;
     }
 
-    .story_image img, .barbie_image img {
+    .story_image img {
+        width: 100%;
+        max-width: 240px;
+        height: 250px;
+        margin: 0 auto;
+    }
+
+     .barbie_image img {
         width: 100%;
         max-width: 240px;
         height: auto;
@@ -2383,6 +2405,10 @@ gap: 150px;
         font-size: 20px;
     }
 
+
+     .bijoux h1, .costa, .onepiece h2, .preferiti h1, .giada h1, .motorino h1, .arianna h2, .sapori h2, .foglia-box h3, .terea h2, .esperienza h2, .battaglia h3, .ricettariotitolo h2, .stepcard h3{
+        text-align: center;
+    }
    
 
 }
@@ -2459,6 +2485,9 @@ gap: 150px;
         cursor: pointer;
     }
 
+   
+
+   
 }
 
  
