@@ -1263,7 +1263,7 @@ transition: transform 0.3s ease-out;
 
 
 .carto{
-    background:#f0e1bf;
+    background:#EFE4D1;
     padding: 45px ;     
 }
 
@@ -1482,7 +1482,7 @@ gap: 150px;
 
 
 .ricettario {
-    background: #f8f2e7;
+    background: #FAD184;
     padding: 20px;
     font-family: "Cormorant Garamond", serif;
     padding-bottom: 60px;
@@ -1595,7 +1595,7 @@ gap: 150px;
     text-align: center;
     padding: 20px;
     margin-top: 80px;
-    background-color: #f3ebdd;
+    background-color: #EFE4D1;
     position: relative;
     margin: 0 auto;
 }
@@ -1748,7 +1748,7 @@ gap: 150px;
     margin-bottom: 120px;
     text-align: center;
     padding: 100px 0;
-    background: #f3ebdd;
+    background: #EFE4D1;
 }
 
 .terea h2{
